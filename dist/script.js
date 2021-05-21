@@ -17818,7 +17818,7 @@ window.addEventListener('DOMContentLoaded', function () {
   "use strict";
 
   var modalState = {};
-  var deadline = '2021-10-01';
+  var deadline = '2021-06-21';
   Object(_modules_changeModalState__WEBPACK_IMPORTED_MODULE_4__["default"])(modalState);
   Object(_modules_modals__WEBPACK_IMPORTED_MODULE_1__["default"])();
   Object(_modules_tabs__WEBPACK_IMPORTED_MODULE_2__["default"])('.glazing_slider', '.glazing_block', '.glazing_content', 'active');
@@ -18188,7 +18188,7 @@ var timer = function timer(id, deadline) {
         seconds = Math.floor(t / 1000 % 60),
         minutes = Math.floor(t / 1000 / 60 % 60),
         hours = Math.floor(t / (1000 * 60 * 60) % 24),
-        days = Math.floor(t / (1000 * 60 * 60 * 60 * 24));
+        days = Math.floor(t / (1000 * 60 * 60 * 24));
     return {
       'total': t,
       'days': days,

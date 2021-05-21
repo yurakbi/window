@@ -12,7 +12,7 @@ const timer = (id, deadline) => {
             seconds = Math.floor((t/1000) % 60),
             minutes = Math.floor((t/1000/60) % 60),
             hours = Math.floor((t/(1000 * 60 * 60))  % 24),
-            days = Math.floor((t/(1000 * 60 * 60 * 60 * 24)));
+            days = Math.floor((t/(1000 * 60 * 60  * 24)));
         
         return {
             'total': t,
